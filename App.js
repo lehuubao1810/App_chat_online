@@ -3,16 +3,13 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import MyStack from './navigation';
 import Home from './screens/home';
-import Quiz from './screens/quiz';
-import Result from './screens/result';
+import Login from './screens/login';
+import Register from './screens/register';
 
 const App = () => {
-    return ( <
-        NavigationContainer >
-        <
-        MyStack / >
-        <
-        /NavigationContainer>
+    return ( <NavigationContainer >
+        <MyStack />
+        </NavigationContainer>
     );
 };
 
