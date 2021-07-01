@@ -15,13 +15,13 @@ function MyStack() {
         options={{headerShown: false}}
       />
       <Stack.Screen
-        name="Quiz"
-        component={Quiz}
+        name="Login"
+        component={Login}
         options={{headerShown: false}}
       />
       <Stack.Screen
-        name="Result"
-        component={Result}
+        name="Register"
+        component={Register}
         options={{headerShown: false}}
       />
     </Stack.Navigator>
